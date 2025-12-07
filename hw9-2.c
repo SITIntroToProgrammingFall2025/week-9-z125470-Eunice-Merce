@@ -18,7 +18,7 @@ int main() {
     }
 
 
-    printf("You entered \n");
+    printf("You entered\n");
     for (i = 1; i <= 3; i++) {
         for (j = 1; j <= 3; j++) {
             printf("%d ",a[i-1][j-1]);
@@ -36,6 +36,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
