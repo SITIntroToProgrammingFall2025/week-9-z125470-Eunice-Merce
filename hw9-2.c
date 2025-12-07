@@ -13,7 +13,6 @@ int main() {
 
     for (i = 1; i <= 3; i++) {
         for (j = 1; j <= 3; j++) {
-            printf("enter the elements for array [%d][%d] = ", i, j);
             scanf("%d", &a[i-1][j-1]);
         }
     }
@@ -37,5 +36,6 @@ int main() {
 
     return 0;
 }
+
 
 
